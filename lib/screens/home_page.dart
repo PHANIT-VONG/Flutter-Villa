@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_villa/widgets/category_page.dart';
+import 'package:flutter_villa/widgets/sale_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -130,6 +131,14 @@ class HomePage extends StatelessWidget {
               ],
             ),
             CategoryPage(),
+            SizedBox(
+              height: 10,
+            ),
+            SalePage(),
+            SalePage(),
+            SalePage(),
+            SalePage(),
+            SalePage(),
           ],
         ),
       ),
