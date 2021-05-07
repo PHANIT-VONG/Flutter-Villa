@@ -4,7 +4,7 @@ import 'package:flutter_villa/screens/detail_page.dart';
 import '../models/category_class.dart';
 
 class CategoryPage extends StatelessWidget {
-  var categoryList = [
+  List<Categories> categoryList = [
     Categories(
       1,
       'https://booyoungkhmer.com.kh/wp-content/uploads/2020/07/Queen-Villa-2-1024x650.jpg',
